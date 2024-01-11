@@ -31,7 +31,6 @@ public class CreateProductTest extends BaseClass {
 		CreateNewProductPage cnpp = new CreateNewProductPage(driver);
 		cnpp.createNewProduct(LASTNAME);
 
-		//Assert.fail();
 		//Step 4:Validate
 		ProductInfoPage pip = new ProductInfoPage(driver);
 		String productHeader = pip.captureProductHeaderText();
